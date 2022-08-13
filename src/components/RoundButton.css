@@ -1,0 +1,25 @@
+.btn {
+    position: relative;
+    text-decoration: underline;
+    color: var(--c-lightest);
+    padding-right: 1.8rem;
+}
+
+.btn::after {
+    content: '\2197';
+    position: absolute;
+    top: .2rem;
+    right: 0;
+    font-size: 1.2rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+   text-decoration: none;
+}
+
+.btn:hover::after {
+    top: -.2rem;
+    right: -.2rem;
+}

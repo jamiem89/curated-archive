@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Hero from './components/Hero';
+import ProjectList from './components/ProjectList';
 
 function App() {
+
+    const data = [
+        {
+            title: `Expenses tracker`,
+            desc: `Built whilst working through a Udemy course: 'React: The Complete Guide`,
+            link: `https://learning-react-theta-peach.vercel.app/`
+        }
+    ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <main className="main">
+        <ProjectList data={data} />
+      </main>
+
     </div>
   );
 }
