@@ -7,7 +7,7 @@ function App() {
     const data = [
         {
             title: `Expenses tracker`,
-            desc: `Built whilst working through a Udemy course: 'React: The Complete Guide`,
+            desc: `Built whilst working through a Udemy course: 'React: The Complete Guide'`,
             link: `https://learning-react-theta-peach.vercel.app/`
         }
     ];

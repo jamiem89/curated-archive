@@ -2,7 +2,7 @@
 
 :root {
     --c-lightest: #ffffff;
-    --c-darkest: #111111;
+    --c-darkest: #1A1A1A;
 }
 
 * {
@@ -29,6 +29,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .main {
     width: 90%;
-    max-width: 120rem;
+    max-width: 80rem;
     margin: 0 auto;
 }
