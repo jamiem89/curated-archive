@@ -13,7 +13,7 @@ function App() {
         {
             title: `List generator`,
             desc: `Super simple list generator to practice two-way binding, props and state. This project has absolutely no styling.`,
-            link: `react-to-do-drab.vercel.app/`
+            link: `https://react-to-do-drab.vercel.app/`
         },
     ];
 
