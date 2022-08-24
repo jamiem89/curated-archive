@@ -6,14 +6,14 @@ function App() {
 
     const data = [
         {
+            title: `Bobs Burgers character search`,
+            desc: `A quick test to fetch data from an external API, then filter that data based on user input`,
+            link: `https://bobs-burgers-stickerbook.vercel.app/`
+        },
+        {
             title: `Expenses tracker`,
             desc: `Built whilst working through a Udemy course: 'React: The Complete Guide'`,
             link: `https://learning-react-theta-peach.vercel.app/`
-        },
-        {
-            title: `List generator`,
-            desc: `Super simple list generator to practice two-way binding, props and state. This project has absolutely no styling.`,
-            link: `https://react-to-do-drab.vercel.app/`
         },
     ];
 
