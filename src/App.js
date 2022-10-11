@@ -6,6 +6,11 @@ function App() {
 
     const data = [
         {
+            title: 'Tile matching game',
+            desc: 'Built as an exercise following along with The Net Ninjas react course',
+            link: 'https://memory-game-mauve-three.vercel.app/'
+        },
+        {
             title: `Bobs Burgers character search`,
             desc: `A quick test to fetch data from an external API, then filter that data based on user input`,
             link: `https://bobs-burgers-stickerbook.vercel.app/`
